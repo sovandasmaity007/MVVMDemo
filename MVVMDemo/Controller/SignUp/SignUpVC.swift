@@ -17,6 +17,7 @@ class SignUpVC: UIViewController {
         // Do any additional setup after loading the view.
         print(self.multipication())
         print(self.add())
+        print(self.add())
     }
 
     func multipication() -> Int {
