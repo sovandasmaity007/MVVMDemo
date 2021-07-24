@@ -10,14 +10,21 @@ import UIKit
 
 class SignUpVC: UIViewController {
 
+    //MARK: Lifecycle method
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         print(self.multipication())
+        print(self.add())
     }
 
     func multipication() -> Int {
         return 5 * 4
     }
+
+    func add() -> Int{
+        return 2 + 3
+    }
+
 }
